@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.database.ControllerLessons">
+   <children>
+      <Button fx:id="toDataBase" layoutX="479.0" layoutY="358.0" mnemonicParsing="false" onAction="#pressToDataBase" prefHeight="42.0" prefWidth="121.0" text="Вернуться обратно" />
+      <Button layoutX="274.0" layoutY="228.0" mnemonicParsing="false" onAction="#pressInsert" text="Добавить" />
+      <TextField fx:id="txtTeacher" layoutX="234.0" layoutY="69.0" />
+      <TextField fx:id="txtCourse" layoutX="234.0" layoutY="113.0" />
+      <TextField fx:id="txtRoom" layoutX="234.0" layoutY="157.0" />
+      <Label fx:id="labelTeacher" layoutX="397.0" layoutY="73.0" />
+      <Label fx:id="labelCourse" layoutX="397.0" layoutY="117.0" />
+      <Label fx:id="labelRoom" layoutX="397.0" layoutY="161.0" />
+      <Label fx:id="status" layoutX="274.0" layoutY="309.0" />
+      <Text layoutX="189.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Учитель" />
+      <Text layoutX="207.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Курс" />
+      <Text layoutX="188.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Комната" />
+   </children>
+</Pane>
